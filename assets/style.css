@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
+:root {
+    --text-color: #DBE4EF;
+    --card-front-color: #427cc4;
+    --card-back-color: #00F4BF;
+}
+
 body{
     background: url(img/bg-desktop.webp);
     font-family: "Inria Sans";
@@ -37,7 +43,8 @@ footer p{
 }
 
 .cartão__conteudo h3{
-    background-color: aquamarine;
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
     text-align: left;
     padding: 0.5rem;
     position:absolute;
