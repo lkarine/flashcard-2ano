@@ -67,6 +67,9 @@ footer p{
     border-radius: 0.6rem;
     font-size: 1vw;
 }
+backface-visibility: hidden;
+    /*visibilidade do verso do elemento: oculto*/
+}
 .cartao__conteudo p{
     margin-top: 1rem; /*MARGEM EXTERNA SUPERIOR DE 1REM*/
     padding: 2rem; /*ESPAÇO INTERNO DO ELEMENTO DE 2REM*/
